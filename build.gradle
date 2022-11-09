@@ -14,17 +14,17 @@ apply plugin: 'com.android.application'
 apply plugin: 'jacoco-android'
 
 jacoco {
-  toolVersion = "0.8.4"
+    toolVersion = "0.8.4"
 }
 
 tasks.withType(Test) {
-  jacoco.includeNoLocationClasses = true
+    jacoco.includeNoLocationClasses = true
 }
 
 jacocoAndroidUnitTestReport {
-  csv.enabled false
-  html.enabled true
-  xml.enabled false
+    csv.enabled false
+    html.enabled true
+    xml.enabled false
 }
 
 android {

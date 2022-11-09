@@ -67,6 +67,19 @@ public class SimpleNavActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
+        if (id == R.id.nav_vehicles) {
+
+        }
+        if (id == R.id.nav_remote) {
+
+        }
+        if (id == R.id.nav_follow) {
+
+        }
+        if (id == R.id.nav_auto) {
+
+        }
+
         if (id == R.id.nav_logout) {
             AWSMobileClient.getInstance().signOut();
             AWSMobileClient.getInstance().showSignIn(this,

@@ -5,6 +5,23 @@
     <item android:title="Communicate"
         tools:ignore="HardcodedText">
         <menu>
+
+            <item
+                android:id="@+id/nav_vehicles"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Vehicles"/>
+            <item
+                android:id="@+id/nav_remote"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Remote"/>
+            <item
+                android:id="@+id/nav_follow"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Follow"/>
+            <item
+                android:id="@+id/nav_auto"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Auto"/>
             <item
                 android:id="@+id/nav_logout"
                 android:icon="@drawable/ic_menu_share"
